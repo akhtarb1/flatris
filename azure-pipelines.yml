@@ -6,8 +6,7 @@
 trigger:
 - master
 
-pool:
-  vmImage: my-personal-computer1
+pool: my-personal-computer1
 
 steps:
 - task: NodeTool@0
